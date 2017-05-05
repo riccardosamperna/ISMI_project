@@ -1,0 +1,16 @@
+For windows
+
+In order to get the data on surfsara you should first get the cookies.
+-Make sure you are on the kaggle website and logged in.
+-Then save the cookies as cookies.txt file.*Probably some add one needed if you don't already have one. Export cookies for Firefox* 
+
+then open commandwindow and do the following:
+pscp C:\path\to\the\file\cookies.txt lisab@cartesius.surfsara.nl: (change username to yours)
+This will copy the cookies.txt in your machine to surfsara directory
+
+Then to download the data from kaggle.com to the directory in surfsara, log in to surfsara and do the following:
+
+wget --load-cookies cookies.txt https://www.kaggle.com/c/intel-mobileodt-cervical-cancer-screening/download/train.7z
+
+Where the kaggle link is just the link for in this case the train set, but you should change it for every dataset you need to get on surfsara.
+
