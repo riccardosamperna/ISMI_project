@@ -144,6 +144,8 @@ class TensorCrop:
 
 data_dir = 'data/'
 output_dir = 'testcrop/'
+
+#download hypes&checkpoint: https://drive.google.com/open?id=0B0pqzHzLz1F5aDVfb1pOUWF2bWc
 hypes_file = 'output/overfeat_rezoom_2017_05_23_23.01/hypes.json'
 checkpoint = 'output/overfeat_rezoom_2017_05_23_23.01/save.ckpt-3999'
 print 'hello'
