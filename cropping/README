@@ -1,0 +1,3 @@
+data: https://www.kaggle.com/c/intel-mobileodt-cervical-cancer-screening/data
+Install tensorbox (overfeat) and compile for os, instructions at https://github.com/TensorBox/TensorBox
+hyperparamater file & checkpoint: https://drive.google.com/open?id=0B0pqzHzLz1F5aDVfb1pOUWF2bWc
